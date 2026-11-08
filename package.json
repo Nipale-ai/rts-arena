@@ -1,0 +1,33 @@
+{
+  "name": "rts-arena",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "bin": {
+    "rts-arena": "bin/rts-arena.mjs"
+  },
+  "scripts": {
+    "start": "node bin/rts-arena.mjs",
+    "test": "node --test",
+    "match": "node tools/match-headless.mjs --p1 rush --p2 boom --seed 42",
+    "balance": "nice -n 10 node tools/balance.mjs --games 100"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "bin/",
+    "server/",
+    "sim/",
+    "sim-versions/",
+    "agents/",
+    "!agents/llm/test/",
+    "render/",
+    "ui/",
+    "configs/",
+    "tools/",
+    "BROADCAST-RULES.md",
+    "CREDITS.md",
+    "DOWNLOADS.md"
+  ]
+}

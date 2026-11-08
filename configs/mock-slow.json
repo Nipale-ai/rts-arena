@@ -1,0 +1,11 @@
+{
+  "name": "Mock Slow",
+  "base_url": "http://127.0.0.1:8092/v1",
+  "model": "mock-slow",
+  "hardware": "mock server, 6 s",
+  "sampling": { "temperature": 0.6, "top_p": 0.95, "seed": 42 },
+  "max_tokens": 1024,
+  "thinking": false,
+  "timeout_s": 60,
+  "min_interval_s": 1
+}

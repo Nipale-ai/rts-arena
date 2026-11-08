@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RTS Arena - Spectator</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="view"></canvas>
+<div id="hud">
+  <section class="panel" id="panel-0"></section>
+  <section class="panel right" id="panel-1"></section>
+  <div id="top">
+    <div id="clock">00:00</div>
+    <div id="meta"><span id="mode"></span><span id="seed"></span></div>
+    <div id="godbadge" title="Spectator interventions were used in this match. It does not count for rankings.">GOD MODE</div>
+    <div id="speed">
+      <button data-x="pause" title="Pause (space)">II</button>
+      <button data-x="1">1x</button><button data-x="2">2x</button><button data-x="4">4x</button><button data-x="8">8x</button>
+    </div>
+    <div id="sound"></div>
+    <div id="perf"></div>
+    <div id="vic" style="display:none"></div>
+  </div>
+  <div id="mini"><canvas id="minimap" width="200" height="200"></canvas></div>
+  <div id="feed"></div>
+  <div id="banner"></div>
+  <section id="god"></section>
+  <div id="keys">drag: pan &nbsp; right-drag: rotate &nbsp; wheel: zoom &nbsp; C: auto camera &nbsp; F: fog &nbsp; G: God mode &nbsp; H: hide HUD &nbsp; L: quality &nbsp; space: pause</div>
+</div>
+<script type="module" src="app.mjs"></script>
+</body>
+</html>

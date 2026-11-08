@@ -1,0 +1,54 @@
+{
+  "setup": {
+    "bots": [
+      "rush",
+      "turtle"
+    ],
+    "seed": 3,
+    "tick": 10625,
+    "span": 8,
+    "sub": 3,
+    "frames": 27
+  },
+  "env": {
+    "node": "v22.22.3",
+    "platform": "darwin",
+    "arch": "arm64",
+    "chrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome | Google Chrome 156.0.8078.79",
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M5 Ultra, Unspecified Version)"
+  },
+  "seen": {
+    "bolts": 0,
+    "arrows": 27
+  },
+  "archers": 33,
+  "frames": [
+    "7173a5104705c0f04ff3a9d8788beb90",
+    "bb79b244d0747106bfc9cb8c4c600e25",
+    "630c0b899a45d0307a9c6e37f14e1716",
+    "2857beca55733018acff1954623fe268",
+    "cffe19b369311212881c18628534afe5",
+    "9bbd6ab3d1db40666d0a59ec9f199760",
+    "3c9ee4bc9b84b7756674fcc9ca47488f",
+    "a23278b6673708f74e3cf96700f60fc8",
+    "641306c3d0da14f2061c3683a3023d94",
+    "c4897afd55c506831a1452e67017d591",
+    "d362e80e16672c313d9f3918ff14248f",
+    "88e4c9adef556fbd86e250ce83e1d163",
+    "eb5a587235bc8c6489e33da4c641ebff",
+    "d46897d61890feb089f6f638e8a4de9e",
+    "248b6f5ed5bec98eccb5a467812ef749",
+    "7dcf5c814a509662b1c19d6bddb11862",
+    "1dd339675d33f6f2bfa7b007d4e2fe6e",
+    "959df215af41ea1df1f7e78bf4cbdc1d",
+    "b294a9f3fe6890c08a6ce3b75d366061",
+    "dab1c8490862ac1d70dbeebb6e625fc0",
+    "2b209bccf87ad2857164760bd197dddf",
+    "85862978b4a523f2a2571a0f46c9eb89",
+    "fa08dbf51c937f81aebd313057114d30",
+    "226dc7da3ef057ef7fa921d82656c10c",
+    "ca0f6fc244a6360a2cc1bab19a949a30",
+    "0ed11b61b03a3ac8807828f80ffc9dd6",
+    "03e2d625f1dc58c12057e3b95f4f69e0"
+  ]
+}

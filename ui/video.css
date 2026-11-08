@@ -1,0 +1,36 @@
+/* "Make video" dialog and settings page additions. Uses the tokens of arena.css; on the replay page the tokens are defined here too. */
+:root { --vbg: #0a0e14; --vcard: #121a27; --vline: rgba(255,255,255,.16); --vtxt: #e6ebf2; --vdim: #8b97a8; --vacc: #4d8dff; --vok: #3ddc97; --vbad: #ff6b6b; --vwarn: #f5c453; }
+.vd-back { position: fixed; inset: 0; z-index: 1000; background: rgba(4,7,12,.72); display: grid; place-items: center; padding: 16px; font: 15px/1.5 Inter, ui-sans-serif, -apple-system, "Segoe UI", sans-serif; color: var(--vtxt); }
+.vd { width: min(560px, 100%); max-height: 94vh; overflow: auto; background: var(--vcard); border: 1px solid var(--vline); border-radius: 16px; padding: 20px; box-shadow: 0 20px 60px rgba(0,0,0,.5); }
+.vd h3 { margin: 0 0 4px; font-size: 20px; letter-spacing: -.01em; }
+.vd .vsub { margin: 0 0 14px; color: var(--vdim); font-size: 13.5px; }
+.vd label { display: grid; gap: 4px; font: 600 11px Inter, system-ui, sans-serif; color: var(--vdim); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
+.vd select, .vd input[type=text] { width: 100%; background: #0f1520; color: var(--vtxt); border: 1px solid var(--vline); border-radius: 9px; padding: 9px 11px; font: 14px Inter, system-ui, sans-serif; min-height: 40px; }
+.vd .vseg { display: flex; border: 1px solid var(--vline); border-radius: 10px; overflow: hidden; }
+.vd .vseg button { flex: 1; background: #0f1520; color: var(--vdim); border: 0; padding: 9px 8px; font: 600 13px Inter, system-ui, sans-serif; cursor: pointer; min-height: 40px; }
+.vd .vseg button.on { background: var(--vacc); color: #fff; }
+.vd .vchk { display: flex; align-items: center; gap: 8px; text-transform: none; font-size: 14px; color: var(--vtxt); font-weight: 500; letter-spacing: 0; }
+.vd .vchk input { width: 18px; height: 18px; accent-color: var(--vacc); }
+.vd .vhint { font: 400 12.5px Inter, system-ui, sans-serif; color: var(--vdim); text-transform: none; letter-spacing: 0; margin: 0; }
+.vd .vhint.bad { color: var(--vwarn); }
+.vd .vrow { display: flex; gap: 10px; justify-content: flex-end; align-items: center; margin-top: 16px; flex-wrap: wrap; }
+.vd .vbtn { appearance: none; border: 1px solid var(--vline); background: #0f1520; color: var(--vtxt); font: 600 14px Inter, system-ui, sans-serif; padding: 9px 16px; border-radius: 10px; cursor: pointer; min-height: 40px; text-decoration: none; display: inline-flex; align-items: center; }
+.vd .vbtn.primary { background: var(--vacc); border-color: var(--vacc); color: #fff; }
+.vd .vbtn.danger:hover { border-color: var(--vbad); color: var(--vbad); }
+.vd .vbtn:hover { border-color: var(--vacc); }
+.vd .vbar { height: 10px; background: rgba(255,255,255,.08); border-radius: 5px; overflow: hidden; margin: 12px 0 6px; }
+.vd .vbar i { display: block; height: 100%; background: var(--vacc); transition: width .4s; }
+.vd .vstage { display: flex; justify-content: space-between; gap: 12px; font: 13px ui-monospace, "SF Mono", Menlo, monospace; color: var(--vdim); }
+.vd .verr { color: var(--vbad); font: 13.5px Inter, system-ui, sans-serif; margin: 10px 0; white-space: pre-wrap; }
+.vd .vwarn { color: var(--vwarn); font: 13px Inter, system-ui, sans-serif; margin: 6px 0; }
+.vd .vlog { font: 11.5px ui-monospace, "SF Mono", Menlo, monospace; color: var(--vdim); background: #0a0e14; border-radius: 8px; padding: 8px 10px; max-height: 160px; overflow: auto; white-space: pre-wrap; word-break: break-all; margin-top: 8px; }
+.vd video { width: 100%; max-height: 52vh; background: #000; border-radius: 10px; display: block; }
+.vd .vfiles { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+.vd summary { cursor: pointer; color: var(--vdim); font-size: 13px; padding: 4px 0; }
+.vd .vpick { display: flex; gap: 6px; margin-bottom: 8px; flex-wrap: wrap; }
+.vd .vpick button { background: #0f1520; color: var(--vdim); border: 1px solid var(--vline); border-radius: 999px; padding: 4px 12px; font: 600 12px Inter, system-ui, sans-serif; cursor: pointer; }
+.vd .vpick button.on { background: var(--vacc); border-color: var(--vacc); color: #fff; }
+.vbtn-bar { color: #e6ebf2; background: rgba(10,14,20,.82); border: 1px solid rgba(255,255,255,.12); border-radius: 999px; padding: 6px 12px; font: 500 12px Inter, system-ui, sans-serif; cursor: pointer; backdrop-filter: blur(8px); }
+.vbtn-bar:hover { border-color: #4d8dff; }
+.badge.video { color: var(--ok); border-color: rgba(61,220,151,.4); }
+.badge.video.busy { color: var(--accent); border-color: var(--accent); }

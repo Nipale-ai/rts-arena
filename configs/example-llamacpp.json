@@ -1,0 +1,13 @@
+{
+  "name": "Qwen 27B",
+  "base_url": "http://127.0.0.1:8080/v1",
+  "model": "qwen3.5-27b-q4_k_m",
+  "api_key": "",
+  "hardware": "RTX 5060 Ti 16 GB",
+  "sampling": { "temperature": 0.6, "top_p": 0.95, "top_k": 20, "min_p": 0.0, "presence_penalty": 0.0, "seed": 42 },
+  "max_tokens": 2048,
+  "thinking": false,
+  "timeout_s": 180,
+  "min_interval_s": 1,
+  "_comment": "Copy this file, set base_url/model/hardware and the sampling values from the model card. thinking=true sends chat_template_kwargs.enable_thinking=true (give max_tokens room for the reasoning). Optional: tool_choice, tools:false (JSON-block fallback only), extra_body (merged into the request), chat_template_kwargs."
+}

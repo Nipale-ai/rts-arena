@@ -1,0 +1,6 @@
+# Frozen board seeds of the solo scenarios. Written 02.11.2026 before any pilot or ladder run.
+# Line: <scenario id> v<version> <sha256 of JSON.stringify(seeds.board)> <board list>.
+# Board seeds are never changed after a result exists. A new list is a new scenario version and a new line (append only).
+# Seeds are derived, not picked: node tools/solo/seeds.mjs --print (rule rts-solo-seeds-v1). Check: node tools/solo/seeds.mjs --check
+duel-ladder v1 63bc20ccfef49b8620e4d426e3843ce5919251635f31fb566fe63d8a28b381f6 [391337,967579,924243,393111,897527,298267,994074,847972]
+eco-sprint v1 fcf0416e0b9b1290ed34560498798385b3631df949b5853b1bde0000e995386a [700072,511971,787240,453655]

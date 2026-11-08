@@ -1,0 +1,19 @@
+{
+  "id": "duel-ladder",
+  "name": "Duel Ladder",
+  "version": 1,
+  "goal": "destroy",
+  "preset": "fast",
+  "rules": { "suddenDeath": 0, "wonder": false, "shrines": false },
+  "mapSize": 96,
+  "maxGameSeconds": 1500,
+  "speed": 1,
+  "levels": [0, 3],
+  "seeds": {
+    "tune": [489649, 651919, 108850, 538315, 389516, 229730, 840528, 884622, 372369, 491339, 427098, 382332, 151710, 188403, 901038, 613876, 980665, 905462, 858043, 131734, 653431, 521151, 819681, 941688, 956433, 362119, 493060, 389330, 553965, 197243, 729767, 168934, 457828, 439328, 684246, 231730, 903003, 674388, 148987, 788436, 746494, 333449, 900188, 106254, 711567, 734233, 309400, 502775, 562329, 854403],
+    "board": [391337, 967579, 924243, 393111, 897527, 298267, 994074, 847972]
+  },
+  "modelSeats": [1, 2],
+  "judge": { "kind": "destroy" },
+  "notes": "Destroy the town center and every production building of the bot. Only the end class destroyed (also stranded) is a win; decay, mutual destruction, time limit and cutoff are never a win. Sudden death, wonder and shrines are off; the cutoff (maxGameSeconds) ends the game before the sim time limit, so no score or seed winner is crowned. levels is the range of the ladder: level 0 is the idle bot, level 3 is the current bot; levels 1 and 2 are built in track 2. Board seeds: a level 1-3 cell is 8 games (4 bot styles x 2 seats), game i uses board[i]; a level 0 cell is 4 games (2 seats x board[0..1]). Tune seeds are for calibration and the pilot. The board list is frozen in SEEDS-HASH.txt."
+}

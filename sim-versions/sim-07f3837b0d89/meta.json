@@ -1,0 +1,9 @@
+{
+ "id": "sim-07f3837b0d89",
+ "date": "2026-10-27T11:06:52.237Z",
+ "commits": [],
+ "golden": [
+  "rush-boom-s3-classic",
+  "rush-boom-s5-fast"
+ ]
+}

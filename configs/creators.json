@@ -1,0 +1,38 @@
+{
+ "_doc": "Creator banners (cosmetic: lobby, HUD, flags in the 3D view; the AI never sees them). Add your own: id, name, short, x (handle or null), logo (square PNG below render/, 256 px or more), primary / secondary / accent colours. A missing logo file only leaves the flag plain.",
+ "creators": {
+  "blue-circle": {
+   "id": "blue-circle",
+   "name": "Blue Circle",
+   "short": "Blue Circle",
+   "x": null,
+   "logo": "assets/creators/blue-circle.png",
+   "primary": "#1f3a8a",
+   "secondary": "#dbeafe",
+   "accent": "#60a5fa",
+   "hand": false
+  },
+  "amber-diamond": {
+   "id": "amber-diamond",
+   "name": "Amber Diamond",
+   "short": "Amber Diamond",
+   "x": null,
+   "logo": "assets/creators/amber-diamond.png",
+   "primary": "#78350f",
+   "secondary": "#fde68a",
+   "accent": "#f59e0b",
+   "hand": false
+  },
+  "green-triangle": {
+   "id": "green-triangle",
+   "name": "Green Triangle",
+   "short": "Green Triangle",
+   "x": null,
+   "logo": "assets/creators/green-triangle.png",
+   "primary": "#14532d",
+   "secondary": "#bbf7d0",
+   "accent": "#4ade80",
+   "hand": false
+  }
+ }
+}

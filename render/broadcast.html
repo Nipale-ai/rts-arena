@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>RTS Arena - Broadcast</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="broadcast.css">
+</head>
+<body class="preset-x">
+<div id="stage">
+  <canvas id="view"></canvas>
+  <div id="head">
+    <div id="cls"></div>
+    <div id="matchup">
+      <div class="mu" id="mu0"><i></i><img class="av" alt=""><b></b><span></span></div>
+      <div class="mu" id="mu1"><i></i><img class="av" alt=""><b></b><span></span></div>
+    </div>
+  </div>
+  <div id="timebox">
+    <div id="clock">00:00</div>
+    <div id="badge"><span class="chev">&#9654;&#9654;</span><b>1x</b></div>
+    <div id="godbadge">GOD MODE</div>
+  </div>
+  <div id="ticker"><i></i><span></span></div>
+  <div id="tlbar"></div>
+  <div id="tag"></div>
+  <canvas id="marks"></canvas>
+  <div id="showtag"></div>
+  <div id="fogban"></div>
+  <div id="versus"></div>
+  <div id="inset"><div class="it"></div><canvas width="340" height="340"></canvas><div class="ib"></div></div>
+  <div class="sc" id="sc0"></div><div class="sc" id="sc1"></div>
+  <section class="pn" id="pn0"></section>
+  <section class="pn" id="pn1"></section>
+  <div class="card" id="card0"><div class="who"></div><div class="txt"></div><div class="meta"></div></div>
+  <div class="card" id="card1"><div class="who"></div><div class="txt"></div><div class="meta"></div></div>
+  <div id="feed"></div>
+  <div id="lower">
+    <div id="mom"><div class="mh"><i></i><b class="who"></b><span class="fogtag">FOG OF WAR VIEW</span></div><div class="q"></div></div>
+    <div id="split"></div>
+    <div id="caps"></div>
+  </div>
+  <div id="banner"><div class="cl"><img alt=""><div class="win">WINNER</div><h1></h1><div class="by"></div><p></p></div></div>
+  <div id="end">
+    <div class="eh"><div class="ew">WINNER</div><h1></h1><div class="es"></div></div>
+    <div class="ep"><div class="epl"><i></i><b></b><span></span></div><div class="epm"></div><div class="epl rt"><i></i><b></b><span></span></div></div>
+    <div class="erows"></div>
+  </div>
+  <div id="foot"></div>
+</div>
+<script type="module" src="broadcast.mjs"></script>
+</body>
+</html>

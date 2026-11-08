@@ -1,0 +1,19 @@
+{
+  "id": "eco-sprint",
+  "name": "Eco Sprint",
+  "version": 1,
+  "goal": "eco",
+  "preset": "fast",
+  "rules": { "wonder": false, "shrines": false },
+  "mapSize": 96,
+  "maxGameSeconds": 600,
+  "speed": 1,
+  "levels": [0, 0],
+  "seeds": {
+    "tune": [959899, 575561, 384978, 204710, 771378, 691731, 339820, 234198],
+    "board": [700072, 511971, 787240, 453655]
+  },
+  "modelSeats": [1, 2],
+  "judge": { "kind": "eco", "tierTarget": 3 },
+  "notes": "Reach tier 3 and gather as much as possible in 10 minutes against the idle bot (level 0). Not a ladder and not a win or loss: the judge reports the time to tier 3 and the gathered amount, to be compared with the anchors (null agent, mock). The cutoff at 600 s is the normal end. Board cell: 2 seats x 4 maps = 8 games (no bot style at level 0). The board list is frozen in SEEDS-HASH.txt."
+}

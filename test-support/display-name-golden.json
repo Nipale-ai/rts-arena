@@ -1,0 +1,3586 @@
+{
+ "ids": {
+  "units": [
+   "worker",
+   "spearman",
+   "swordsman",
+   "archer",
+   "skirmisher",
+   "light_cavalry",
+   "heavy_cavalry",
+   "ram",
+   "catapult",
+   "scout",
+   "healer",
+   "mortar",
+   "sapper",
+   "bulwark",
+   "fishing_boat",
+   "war_boat",
+   "transport"
+  ],
+  "buildings": [
+   "town_center",
+   "house",
+   "lumber_camp",
+   "mining_camp",
+   "mill",
+   "farm",
+   "barracks",
+   "archery_range",
+   "stables",
+   "siege_workshop",
+   "blacksmith",
+   "tower",
+   "wall",
+   "gate",
+   "market",
+   "castle",
+   "wonder",
+   "outpost",
+   "harbor"
+  ],
+  "techs": [
+   "wood_axe",
+   "wood_axe_2",
+   "plough",
+   "plough_2",
+   "mining_1",
+   "mining_2",
+   "carry_1",
+   "carry_2",
+   "melee_attack_1",
+   "melee_attack_2",
+   "ranged_attack_1",
+   "ranged_attack_2",
+   "melee_armour_1",
+   "melee_armour_2",
+   "pierce_armour_1",
+   "pierce_armour_2",
+   "fletching",
+   "masonry",
+   "bloodlines",
+   "blackpowder",
+   "field_medicine_1",
+   "field_medicine_2",
+   "siege_craft",
+   "trade_charter"
+  ],
+  "wild": [
+   "wolf",
+   "caravan"
+  ],
+  "extra": [
+   "",
+   "x_y_z",
+   "already spaced",
+   "train",
+   "advance_tier",
+   "berries",
+   "herd",
+   "forest",
+   "relic_shrine",
+   "constructor",
+   "toString",
+   "__proto__"
+  ]
+ },
+ "cases": {
+  "worker": {
+   "storyNice": "worker",
+   "casterNice": "worker",
+   "storyTypeList": [
+    "1 worker",
+    "3 workers"
+   ],
+   "plainOrders": [
+    "train 1 worker",
+    "train 3 workers",
+    "build a worker",
+    "build 2 workers",
+    "research worker",
+    "worker"
+   ],
+   "feed": [
+    "P1 kills 2x worker",
+    "P2 loses 1x worker",
+    "P1 loses worker",
+    "P1 builds worker",
+    "P1 spots P2's worker"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost worker"
+    ],
+    [
+     "<b>Anna</b> lost 2x worker",
+     "<b>Ben</b> lost worker"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no worker at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"worker\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "spearman": {
+   "storyNice": "spearman",
+   "casterNice": "spearman",
+   "storyTypeList": [
+    "1 spearman",
+    "3 spearmen"
+   ],
+   "plainOrders": [
+    "train 1 spearman",
+    "train 3 spearmen",
+    "build a spearman",
+    "build 2 spearmen",
+    "research spearman",
+    "spearman"
+   ],
+   "feed": [
+    "P1 kills 2x spearman",
+    "P2 loses 1x spearman",
+    "P1 loses spearman",
+    "P1 builds spearman",
+    "P1 spots P2's spearman"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost spearman"
+    ],
+    [
+     "<b>Anna</b> lost 2x spearman",
+     "<b>Ben</b> lost spearman"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no spearman at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"spearman\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "swordsman": {
+   "storyNice": "swordsman",
+   "casterNice": "swordsman",
+   "storyTypeList": [
+    "1 swordsman",
+    "3 swordsmen"
+   ],
+   "plainOrders": [
+    "train 1 swordsman",
+    "train 3 swordsmen",
+    "build a swordsman",
+    "build 2 swordsmen",
+    "research swordsman",
+    "swordsman"
+   ],
+   "feed": [
+    "P1 kills 2x swordsman",
+    "P2 loses 1x swordsman",
+    "P1 loses swordsman",
+    "P1 builds swordsman",
+    "P1 spots P2's swordsman"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost swordsman"
+    ],
+    [
+     "<b>Anna</b> lost 2x swordsman",
+     "<b>Ben</b> lost swordsman"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no swordsman at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"swordsman\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "archer": {
+   "storyNice": "archer",
+   "casterNice": "archer",
+   "storyTypeList": [
+    "1 archer",
+    "3 archers"
+   ],
+   "plainOrders": [
+    "train 1 archer",
+    "train 3 archers",
+    "build an archer",
+    "build 2 archers",
+    "research archer",
+    "archer"
+   ],
+   "feed": [
+    "P1 kills 2x archer",
+    "P2 loses 1x archer",
+    "P1 loses archer",
+    "P1 builds archer",
+    "P1 spots P2's archer"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost archer"
+    ],
+    [
+     "<b>Anna</b> lost 2x archer",
+     "<b>Ben</b> lost archer"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no archer at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"archer\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "skirmisher": {
+   "storyNice": "skirmisher",
+   "casterNice": "skirmisher",
+   "storyTypeList": [
+    "1 skirmisher",
+    "3 skirmishers"
+   ],
+   "plainOrders": [
+    "train 1 skirmisher",
+    "train 3 skirmishers",
+    "build a skirmisher",
+    "build 2 skirmishers",
+    "research skirmisher",
+    "skirmisher"
+   ],
+   "feed": [
+    "P1 kills 2x skirmisher",
+    "P2 loses 1x skirmisher",
+    "P1 loses skirmisher",
+    "P1 builds skirmisher",
+    "P1 spots P2's skirmisher"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost skirmisher"
+    ],
+    [
+     "<b>Anna</b> lost 2x skirmisher",
+     "<b>Ben</b> lost skirmisher"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no skirmisher at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"skirmisher\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "light_cavalry": {
+   "storyNice": "light cavalry",
+   "casterNice": "light cavalry",
+   "storyTypeList": [
+    "1 light cavalry",
+    "3 light cavalry"
+   ],
+   "plainOrders": [
+    "train 1 light cavalry",
+    "train 3 light cavalry",
+    "build a light cavalry",
+    "build 2 light cavalry",
+    "research light cavalry",
+    "light cavalry"
+   ],
+   "feed": [
+    "P1 kills 2x light cavalry",
+    "P2 loses 1x light cavalry",
+    "P1 loses light cavalry",
+    "P1 builds light cavalry",
+    "P1 spots P2's light cavalry"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost light cavalry"
+    ],
+    [
+     "<b>Anna</b> lost 2x light cavalry",
+     "<b>Ben</b> lost light cavalry"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no light cavalry at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"light_cavalry\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "heavy_cavalry": {
+   "storyNice": "heavy cavalry",
+   "casterNice": "heavy cavalry",
+   "storyTypeList": [
+    "1 heavy cavalry",
+    "3 heavy cavalry"
+   ],
+   "plainOrders": [
+    "train 1 heavy cavalry",
+    "train 3 heavy cavalry",
+    "build a heavy cavalry",
+    "build 2 heavy cavalry",
+    "research heavy cavalry",
+    "heavy cavalry"
+   ],
+   "feed": [
+    "P1 kills 2x heavy cavalry",
+    "P2 loses 1x heavy cavalry",
+    "P1 loses heavy cavalry",
+    "P1 builds heavy cavalry",
+    "P1 spots P2's heavy cavalry"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost heavy cavalry"
+    ],
+    [
+     "<b>Anna</b> lost 2x heavy cavalry",
+     "<b>Ben</b> lost heavy cavalry"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no heavy cavalry at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"heavy_cavalry\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "ram": {
+   "storyNice": "ram",
+   "casterNice": "ram",
+   "storyTypeList": [
+    "1 ram",
+    "3 rams"
+   ],
+   "plainOrders": [
+    "train 1 ram",
+    "train 3 rams",
+    "build a ram",
+    "build 2 rams",
+    "research ram",
+    "ram"
+   ],
+   "feed": [
+    "P1 kills 2x ram",
+    "P2 loses 1x ram",
+    "P1 loses ram",
+    "P1 builds ram",
+    "P1 spots P2's ram"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost ram"
+    ],
+    [
+     "<b>Anna</b> lost 2x ram",
+     "<b>Ben</b> lost ram"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no ram at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"ram\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "catapult": {
+   "storyNice": "catapult",
+   "casterNice": "catapult",
+   "storyTypeList": [
+    "1 catapult",
+    "3 catapults"
+   ],
+   "plainOrders": [
+    "train 1 catapult",
+    "train 3 catapults",
+    "build a catapult",
+    "build 2 catapults",
+    "research catapult",
+    "catapult"
+   ],
+   "feed": [
+    "P1 kills 2x catapult",
+    "P2 loses 1x catapult",
+    "P1 loses catapult",
+    "P1 builds catapult",
+    "P1 spots P2's catapult"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost catapult"
+    ],
+    [
+     "<b>Anna</b> lost 2x catapult",
+     "<b>Ben</b> lost catapult"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no catapult at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"catapult\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "scout": {
+   "storyNice": "scout",
+   "casterNice": "scout",
+   "storyTypeList": [
+    "1 scout",
+    "3 scouts"
+   ],
+   "plainOrders": [
+    "train 1 scout",
+    "train 3 scouts",
+    "build a scout",
+    "build 2 scouts",
+    "research scout",
+    "send the scout"
+   ],
+   "feed": [
+    "P1 kills 2x scout",
+    "P2 loses 1x scout",
+    "P1 loses scout",
+    "P1 builds scout",
+    "P1 spots P2's scout"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost scout"
+    ],
+    [
+     "<b>Anna</b> lost 2x scout",
+     "<b>Ben</b> lost scout"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no scout at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"scout\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "healer": {
+   "storyNice": "healer",
+   "casterNice": "healer",
+   "storyTypeList": [
+    "1 healer",
+    "3 healers"
+   ],
+   "plainOrders": [
+    "train 1 healer",
+    "train 3 healers",
+    "build a healer",
+    "build 2 healers",
+    "research healer",
+    "healer"
+   ],
+   "feed": [
+    "P1 kills 2x healer",
+    "P2 loses 1x healer",
+    "P1 loses healer",
+    "P1 builds healer",
+    "P1 spots P2's healer"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost healer"
+    ],
+    [
+     "<b>Anna</b> lost 2x healer",
+     "<b>Ben</b> lost healer"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no healer at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"healer\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "mortar": {
+   "storyNice": "mortar",
+   "casterNice": "mortar",
+   "storyTypeList": [
+    "1 mortar",
+    "3 mortars"
+   ],
+   "plainOrders": [
+    "train 1 mortar",
+    "train 3 mortars",
+    "build a mortar",
+    "build 2 mortars",
+    "research mortar",
+    "mortar"
+   ],
+   "feed": [
+    "P1 kills 2x mortar",
+    "P2 loses 1x mortar",
+    "P1 loses mortar",
+    "P1 builds mortar",
+    "P1 spots P2's mortar"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost mortar"
+    ],
+    [
+     "<b>Anna</b> lost 2x mortar",
+     "<b>Ben</b> lost mortar"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no mortar at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"mortar\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "sapper": {
+   "storyNice": "sapper",
+   "casterNice": "sapper",
+   "storyTypeList": [
+    "1 sapper",
+    "3 sappers"
+   ],
+   "plainOrders": [
+    "train 1 sapper",
+    "train 3 sappers",
+    "build a sapper",
+    "build 2 sappers",
+    "research sapper",
+    "sapper"
+   ],
+   "feed": [
+    "P1 kills 2x sapper",
+    "P2 loses 1x sapper",
+    "P1 loses sapper",
+    "P1 builds sapper",
+    "P1 spots P2's sapper"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost sapper"
+    ],
+    [
+     "<b>Anna</b> lost 2x sapper",
+     "<b>Ben</b> lost sapper"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no sapper at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"sapper\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "bulwark": {
+   "storyNice": "bulwark",
+   "casterNice": "bulwark",
+   "storyTypeList": [
+    "1 bulwark",
+    "3 bulwarks"
+   ],
+   "plainOrders": [
+    "train 1 bulwark",
+    "train 3 bulwarks",
+    "build a bulwark",
+    "build 2 bulwarks",
+    "research bulwark",
+    "bulwark"
+   ],
+   "feed": [
+    "P1 kills 2x bulwark",
+    "P2 loses 1x bulwark",
+    "P1 loses bulwark",
+    "P1 builds bulwark",
+    "P1 spots P2's bulwark"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost bulwark"
+    ],
+    [
+     "<b>Anna</b> lost 2x bulwark",
+     "<b>Ben</b> lost bulwark"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no bulwark at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"bulwark\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "fishing_boat": {
+   "storyNice": "fishing boat",
+   "casterNice": "fishing boat",
+   "storyTypeList": [
+    "1 fishing boat",
+    "3 fishing boats"
+   ],
+   "plainOrders": [
+    "train 1 fishing boat",
+    "train 3 fishing boats",
+    "build a fishing boat",
+    "build 2 fishing boats",
+    "research fishing boat",
+    "fishing boat"
+   ],
+   "feed": [
+    "P1 kills 2x fishing boat",
+    "P2 loses 1x fishing boat",
+    "P1 loses fishing boat",
+    "P1 builds fishing boat",
+    "P1 spots P2's fishing boat"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost fishing boat"
+    ],
+    [
+     "<b>Anna</b> lost 2x fishing boat",
+     "<b>Ben</b> lost fishing boat"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no fishing boat at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"fishing_boat\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "war_boat": {
+   "storyNice": "war boat",
+   "casterNice": "war boat",
+   "storyTypeList": [
+    "1 war boat",
+    "3 war boats"
+   ],
+   "plainOrders": [
+    "train 1 war boat",
+    "train 3 war boats",
+    "build a war boat",
+    "build 2 war boats",
+    "research war boat",
+    "war boat"
+   ],
+   "feed": [
+    "P1 kills 2x war boat",
+    "P2 loses 1x war boat",
+    "P1 loses war boat",
+    "P1 builds war boat",
+    "P1 spots P2's war boat"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost war boat"
+    ],
+    [
+     "<b>Anna</b> lost 2x war boat",
+     "<b>Ben</b> lost war boat"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no war boat at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"war_boat\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "transport": {
+   "storyNice": "transport",
+   "casterNice": "transport",
+   "storyTypeList": [
+    "1 transport",
+    "3 transports"
+   ],
+   "plainOrders": [
+    "train 1 transport",
+    "train 3 transports",
+    "build a transport",
+    "build 2 transports",
+    "research transport",
+    "transport"
+   ],
+   "feed": [
+    "P1 kills 2x transport",
+    "P2 loses 1x transport",
+    "P1 loses transport",
+    "P1 builds transport",
+    "P1 spots P2's transport"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost transport"
+    ],
+    [
+     "<b>Anna</b> lost 2x transport",
+     "<b>Ben</b> lost transport"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no transport at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"transport\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "town_center": {
+   "storyNice": "town center",
+   "casterNice": "town center",
+   "storyTypeList": [
+    "1 town center",
+    "3 town centers"
+   ],
+   "plainOrders": [
+    "train 1 town center",
+    "train 3 town centers",
+    "build a town center",
+    "build 2 town centers",
+    "research town center",
+    "town center"
+   ],
+   "feed": [
+    "P1 kills 2x town center",
+    "P2 loses 1x town center",
+    "P1 loses town center",
+    "P1 builds town center",
+    "P1 spots P2's town center"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost town center"
+    ],
+    [
+     "<b>Anna</b> lost 2x town center",
+     "<b>Ben</b> lost town center"
+    ],
+    [
+     "<b>Anna</b> built town center"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"town_center\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished town center at 00:10"
+     ]
+    }
+   ]
+  },
+  "house": {
+   "storyNice": "house",
+   "casterNice": "house",
+   "storyTypeList": [
+    "1 house",
+    "3 houses"
+   ],
+   "plainOrders": [
+    "train 1 house",
+    "train 3 houses",
+    "build a house",
+    "build 2 houses",
+    "research house",
+    "house"
+   ],
+   "feed": [
+    "P1 kills 2x house",
+    "P2 loses 1x house",
+    "P1 loses house",
+    "P1 builds house",
+    "P1 spots P2's house"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost house"
+    ],
+    [
+     "<b>Anna</b> lost 2x house",
+     "<b>Ben</b> lost house"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"house\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished house at 00:10"
+     ]
+    }
+   ]
+  },
+  "lumber_camp": {
+   "storyNice": "lumber camp",
+   "casterNice": "lumber camp",
+   "storyTypeList": [
+    "1 lumber camp",
+    "3 lumber camps"
+   ],
+   "plainOrders": [
+    "train 1 lumber camp",
+    "train 3 lumber camps",
+    "build a lumber camp",
+    "build 2 lumber camps",
+    "research lumber camp",
+    "lumber camp"
+   ],
+   "feed": [
+    "P1 kills 2x lumber camp",
+    "P2 loses 1x lumber camp",
+    "P1 loses lumber camp",
+    "P1 builds lumber camp",
+    "P1 spots P2's lumber camp"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost lumber camp"
+    ],
+    [
+     "<b>Anna</b> lost 2x lumber camp",
+     "<b>Ben</b> lost lumber camp"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"lumber_camp\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished lumber camp at 00:10"
+     ]
+    }
+   ]
+  },
+  "mining_camp": {
+   "storyNice": "mining camp",
+   "casterNice": "mining camp",
+   "storyTypeList": [
+    "1 mining camp",
+    "3 mining camps"
+   ],
+   "plainOrders": [
+    "train 1 mining camp",
+    "train 3 mining camps",
+    "build a mining camp",
+    "build 2 mining camps",
+    "research mining camp",
+    "mining camp"
+   ],
+   "feed": [
+    "P1 kills 2x mining camp",
+    "P2 loses 1x mining camp",
+    "P1 loses mining camp",
+    "P1 builds mining camp",
+    "P1 spots P2's mining camp"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost mining camp"
+    ],
+    [
+     "<b>Anna</b> lost 2x mining camp",
+     "<b>Ben</b> lost mining camp"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"mining_camp\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished mining camp at 00:10"
+     ]
+    }
+   ]
+  },
+  "mill": {
+   "storyNice": "mill",
+   "casterNice": "mill",
+   "storyTypeList": [
+    "1 mill",
+    "3 mills"
+   ],
+   "plainOrders": [
+    "train 1 mill",
+    "train 3 mills",
+    "build a mill",
+    "build 2 mills",
+    "research mill",
+    "mill"
+   ],
+   "feed": [
+    "P1 kills 2x mill",
+    "P2 loses 1x mill",
+    "P1 loses mill",
+    "P1 builds mill",
+    "P1 spots P2's mill"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost mill"
+    ],
+    [
+     "<b>Anna</b> lost 2x mill",
+     "<b>Ben</b> lost mill"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"mill\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished mill at 00:10"
+     ]
+    }
+   ]
+  },
+  "farm": {
+   "storyNice": "farm",
+   "casterNice": "farm",
+   "storyTypeList": [
+    "1 farm",
+    "3 farms"
+   ],
+   "plainOrders": [
+    "train 1 farm",
+    "train 3 farms",
+    "build a farm",
+    "build 2 farms",
+    "research farm",
+    "farm"
+   ],
+   "feed": [
+    "P1 kills 2x farm",
+    "P2 loses 1x farm",
+    "P1 loses farm",
+    "P1 builds farm",
+    "P1 spots P2's farm"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost farm"
+    ],
+    [
+     "<b>Anna</b> lost 2x farm",
+     "<b>Ben</b> lost farm"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"farm\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished farm at 00:10"
+     ]
+    }
+   ]
+  },
+  "barracks": {
+   "storyNice": "barracks",
+   "casterNice": "barracks",
+   "storyTypeList": [
+    "1 barracks",
+    "3 barracks"
+   ],
+   "plainOrders": [
+    "train 1 barracks",
+    "train 3 barracks",
+    "build a barracks",
+    "build 2 barracks",
+    "research barracks",
+    "barracks"
+   ],
+   "feed": [
+    "P1 kills 2x barracks",
+    "P2 loses 1x barracks",
+    "P1 loses barracks",
+    "P1 builds barracks",
+    "P1 spots P2's barracks"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost barracks"
+    ],
+    [
+     "<b>Anna</b> lost 2x barracks",
+     "<b>Ben</b> lost barracks"
+    ],
+    [
+     "<b>Anna</b> built barracks"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"barracks\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished barracks at 00:10"
+     ]
+    }
+   ]
+  },
+  "archery_range": {
+   "storyNice": "archery range",
+   "casterNice": "archery range",
+   "storyTypeList": [
+    "1 archery range",
+    "3 archery ranges"
+   ],
+   "plainOrders": [
+    "train 1 archery range",
+    "train 3 archery ranges",
+    "build an archery range",
+    "build 2 archery ranges",
+    "research archery range",
+    "archery range"
+   ],
+   "feed": [
+    "P1 kills 2x archery range",
+    "P2 loses 1x archery range",
+    "P1 loses archery range",
+    "P1 builds archery range",
+    "P1 spots P2's archery range"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost archery range"
+    ],
+    [
+     "<b>Anna</b> lost 2x archery range",
+     "<b>Ben</b> lost archery range"
+    ],
+    [
+     "<b>Anna</b> built archery range"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"archery_range\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished archery range at 00:10"
+     ]
+    }
+   ]
+  },
+  "stables": {
+   "storyNice": "stables",
+   "casterNice": "stables",
+   "storyTypeList": [
+    "1 stables",
+    "3 stables"
+   ],
+   "plainOrders": [
+    "train 1 stables",
+    "train 3 stables",
+    "build a stables",
+    "build 2 stables",
+    "research stables",
+    "stables"
+   ],
+   "feed": [
+    "P1 kills 2x stables",
+    "P2 loses 1x stables",
+    "P1 loses stables",
+    "P1 builds stables",
+    "P1 spots P2's stables"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost stables"
+    ],
+    [
+     "<b>Anna</b> lost 2x stables",
+     "<b>Ben</b> lost stables"
+    ],
+    [
+     "<b>Anna</b> built stables"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"stables\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished stables at 00:10"
+     ]
+    }
+   ]
+  },
+  "siege_workshop": {
+   "storyNice": "siege workshop",
+   "casterNice": "siege workshop",
+   "storyTypeList": [
+    "1 siege workshop",
+    "3 siege workshops"
+   ],
+   "plainOrders": [
+    "train 1 siege workshop",
+    "train 3 siege workshops",
+    "build a siege workshop",
+    "build 2 siege workshops",
+    "research siege workshop",
+    "siege workshop"
+   ],
+   "feed": [
+    "P1 kills 2x siege workshop",
+    "P2 loses 1x siege workshop",
+    "P1 loses siege workshop",
+    "P1 builds siege workshop",
+    "P1 spots P2's siege workshop"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost siege workshop"
+    ],
+    [
+     "<b>Anna</b> lost 2x siege workshop",
+     "<b>Ben</b> lost siege workshop"
+    ],
+    [
+     "<b>Anna</b> built siege workshop"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"siege_workshop\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished siege workshop at 00:10"
+     ]
+    }
+   ]
+  },
+  "blacksmith": {
+   "storyNice": "blacksmith",
+   "casterNice": "blacksmith",
+   "storyTypeList": [
+    "1 blacksmith",
+    "3 blacksmiths"
+   ],
+   "plainOrders": [
+    "train 1 blacksmith",
+    "train 3 blacksmiths",
+    "build a blacksmith",
+    "build 2 blacksmiths",
+    "research blacksmith",
+    "blacksmith"
+   ],
+   "feed": [
+    "P1 kills 2x blacksmith",
+    "P2 loses 1x blacksmith",
+    "P1 loses blacksmith",
+    "P1 builds blacksmith",
+    "P1 spots P2's blacksmith"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost blacksmith"
+    ],
+    [
+     "<b>Anna</b> lost 2x blacksmith",
+     "<b>Ben</b> lost blacksmith"
+    ],
+    [
+     "<b>Anna</b> built blacksmith"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"blacksmith\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished blacksmith at 00:10"
+     ]
+    }
+   ]
+  },
+  "tower": {
+   "storyNice": "tower",
+   "casterNice": "tower",
+   "storyTypeList": [
+    "1 tower",
+    "3 towers"
+   ],
+   "plainOrders": [
+    "train 1 tower",
+    "train 3 towers",
+    "build a tower",
+    "build 2 towers",
+    "research tower",
+    "tower"
+   ],
+   "feed": [
+    "P1 kills 2x tower",
+    "P2 loses 1x tower",
+    "P1 loses tower",
+    "P1 builds tower",
+    "P1 spots P2's tower"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost tower"
+    ],
+    [
+     "<b>Anna</b> lost 2x tower",
+     "<b>Ben</b> lost tower"
+    ],
+    [
+     "<b>Anna</b> built tower"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"tower\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished tower at 00:10"
+     ]
+    }
+   ]
+  },
+  "wall": {
+   "storyNice": "wall",
+   "casterNice": "wall",
+   "storyTypeList": [
+    "1 wall",
+    "3 walls"
+   ],
+   "plainOrders": [
+    "train 1 wall",
+    "train 3 walls",
+    "build a wall",
+    "build 2 walls",
+    "research wall",
+    "wall"
+   ],
+   "feed": [
+    "P1 kills 2x wall",
+    "P2 loses 1x wall",
+    "P1 loses wall",
+    "P1 builds wall",
+    "P1 spots P2's wall"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost wall"
+    ],
+    [
+     "<b>Anna</b> lost 2x wall",
+     "<b>Ben</b> lost wall"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"wall\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished wall at 00:10"
+     ]
+    }
+   ]
+  },
+  "gate": {
+   "storyNice": "gate",
+   "casterNice": "gate",
+   "storyTypeList": [
+    "1 gate",
+    "3 gates"
+   ],
+   "plainOrders": [
+    "train 1 gate",
+    "train 3 gates",
+    "build a gate",
+    "build 2 gates",
+    "research gate",
+    "gate"
+   ],
+   "feed": [
+    "P1 kills 2x gate",
+    "P2 loses 1x gate",
+    "P1 loses gate",
+    "P1 builds gate",
+    "P1 spots P2's gate"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost gate"
+    ],
+    [
+     "<b>Anna</b> lost 2x gate",
+     "<b>Ben</b> lost gate"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"gate\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished gate at 00:10"
+     ]
+    }
+   ]
+  },
+  "market": {
+   "storyNice": "market",
+   "casterNice": "market",
+   "storyTypeList": [
+    "1 market",
+    "3 markets"
+   ],
+   "plainOrders": [
+    "train 1 market",
+    "train 3 markets",
+    "build a market",
+    "build 2 markets",
+    "research market",
+    "market"
+   ],
+   "feed": [
+    "P1 kills 2x market",
+    "P2 loses 1x market",
+    "P1 loses market",
+    "P1 builds market",
+    "P1 spots P2's market"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost market"
+    ],
+    [
+     "<b>Anna</b> lost 2x market",
+     "<b>Ben</b> lost market"
+    ],
+    [
+     "<b>Anna</b> built market"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"market\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished market at 00:10"
+     ]
+    }
+   ]
+  },
+  "castle": {
+   "storyNice": "castle",
+   "casterNice": "castle",
+   "storyTypeList": [
+    "1 castle",
+    "3 castles"
+   ],
+   "plainOrders": [
+    "train 1 castle",
+    "train 3 castles",
+    "build a castle",
+    "build 2 castles",
+    "research castle",
+    "castle"
+   ],
+   "feed": [
+    "P1 kills 2x castle",
+    "P2 loses 1x castle",
+    "P1 loses castle",
+    "P1 builds castle",
+    "P1 spots P2's castle"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost castle"
+    ],
+    [
+     "<b>Anna</b> lost 2x castle",
+     "<b>Ben</b> lost castle"
+    ],
+    [
+     "<b>Anna</b> built castle"
+    ]
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"castle\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished castle at 00:10"
+     ]
+    }
+   ]
+  },
+  "wonder": {
+   "storyNice": "wonder",
+   "casterNice": "wonder",
+   "storyTypeList": [
+    "1 wonder",
+    "3 wonders"
+   ],
+   "plainOrders": [
+    "train 1 wonder",
+    "train 3 wonders",
+    "build a wonder",
+    "build 2 wonders",
+    "research wonder",
+    "wonder"
+   ],
+   "feed": [
+    "P1 kills 2x wonder",
+    "P2 loses 1x wonder",
+    "P1 loses wonder",
+    "P1 builds wonder",
+    "P1 spots P2's wonder"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost wonder"
+    ],
+    [
+     "<b>Anna</b> lost 2x wonder",
+     "<b>Ben</b> lost wonder"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"wonder\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished wonder at 00:10"
+     ]
+    }
+   ]
+  },
+  "outpost": {
+   "storyNice": "outpost",
+   "casterNice": "outpost",
+   "storyTypeList": [
+    "1 outpost",
+    "3 outposts"
+   ],
+   "plainOrders": [
+    "train 1 outpost",
+    "train 3 outposts",
+    "build an outpost",
+    "build 2 outposts",
+    "research outpost",
+    "outpost"
+   ],
+   "feed": [
+    "P1 kills 2x outpost",
+    "P2 loses 1x outpost",
+    "P1 loses outpost",
+    "P1 builds outpost",
+    "P1 spots P2's outpost"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost outpost"
+    ],
+    [
+     "<b>Anna</b> lost 2x outpost",
+     "<b>Ben</b> lost outpost"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"outpost\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished outpost at 00:10"
+     ]
+    }
+   ]
+  },
+  "harbor": {
+   "storyNice": "harbor",
+   "casterNice": "harbor",
+   "storyTypeList": [
+    "1 harbor",
+    "3 harbors"
+   ],
+   "plainOrders": [
+    "train 1 harbor",
+    "train 3 harbors",
+    "build a harbor",
+    "build 2 harbors",
+    "research harbor",
+    "harbor"
+   ],
+   "feed": [
+    "P1 kills 2x harbor",
+    "P2 loses 1x harbor",
+    "P1 loses harbor",
+    "P1 builds harbor",
+    "P1 spots P2's harbor"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost harbor"
+    ],
+    [
+     "<b>Anna</b> lost 2x harbor",
+     "<b>Ben</b> lost harbor"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"harbor\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished harbor at 00:10"
+     ]
+    }
+   ]
+  },
+  "wood_axe": {
+   "storyNice": "wood axe",
+   "casterNice": "wood axe",
+   "storyTypeList": [
+    "1 wood axe",
+    "3 wood axes"
+   ],
+   "plainOrders": [
+    "train 1 wood axe",
+    "train 3 wood axes",
+    "build a wood axe",
+    "build 2 wood axes",
+    "research wood axe",
+    "wood axe"
+   ],
+   "feed": [
+    "P1 kills 2x wood axe",
+    "P2 loses 1x wood axe",
+    "P1 loses wood axe",
+    "P1 builds wood axe",
+    "P1 spots P2's wood axe"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost wood axe"
+    ],
+    [
+     "<b>Anna</b> lost 2x wood axe",
+     "<b>Ben</b> lost wood axe"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"wood_axe\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"wood_axe\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "wood_axe_2": {
+   "storyNice": "wood axe 2",
+   "casterNice": "wood axe 2",
+   "storyTypeList": [
+    "1 wood axe 2",
+    "3 wood axe 2s"
+   ],
+   "plainOrders": [
+    "train 1 wood axe 2",
+    "train 3 wood axe 2s",
+    "build a wood axe 2",
+    "build 2 wood axe 2s",
+    "research wood axe 2",
+    "wood axe 2"
+   ],
+   "feed": [
+    "P1 kills 2x wood axe 2",
+    "P2 loses 1x wood axe 2",
+    "P1 loses wood axe 2",
+    "P1 builds wood axe 2",
+    "P1 spots P2's wood axe 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost wood axe 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x wood axe 2",
+     "<b>Ben</b> lost wood axe 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"wood_axe_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"wood_axe_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "plough": {
+   "storyNice": "plough",
+   "casterNice": "plough",
+   "storyTypeList": [
+    "1 plough",
+    "3 ploughs"
+   ],
+   "plainOrders": [
+    "train 1 plough",
+    "train 3 ploughs",
+    "build a plough",
+    "build 2 ploughs",
+    "research plough",
+    "plough"
+   ],
+   "feed": [
+    "P1 kills 2x plough",
+    "P2 loses 1x plough",
+    "P1 loses plough",
+    "P1 builds plough",
+    "P1 spots P2's plough"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost plough"
+    ],
+    [
+     "<b>Anna</b> lost 2x plough",
+     "<b>Ben</b> lost plough"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"plough\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"plough\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "plough_2": {
+   "storyNice": "plough 2",
+   "casterNice": "plough 2",
+   "storyTypeList": [
+    "1 plough 2",
+    "3 plough 2s"
+   ],
+   "plainOrders": [
+    "train 1 plough 2",
+    "train 3 plough 2s",
+    "build a plough 2",
+    "build 2 plough 2s",
+    "research plough 2",
+    "plough 2"
+   ],
+   "feed": [
+    "P1 kills 2x plough 2",
+    "P2 loses 1x plough 2",
+    "P1 loses plough 2",
+    "P1 builds plough 2",
+    "P1 spots P2's plough 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost plough 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x plough 2",
+     "<b>Ben</b> lost plough 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"plough_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"plough_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "mining_1": {
+   "storyNice": "mining 1",
+   "casterNice": "mining 1",
+   "storyTypeList": [
+    "1 mining 1",
+    "3 mining 1s"
+   ],
+   "plainOrders": [
+    "train 1 mining 1",
+    "train 3 mining 1s",
+    "build a mining 1",
+    "build 2 mining 1s",
+    "research mining 1",
+    "mining 1"
+   ],
+   "feed": [
+    "P1 kills 2x mining 1",
+    "P2 loses 1x mining 1",
+    "P1 loses mining 1",
+    "P1 builds mining 1",
+    "P1 spots P2's mining 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost mining 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x mining 1",
+     "<b>Ben</b> lost mining 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"mining_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"mining_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "mining_2": {
+   "storyNice": "mining 2",
+   "casterNice": "mining 2",
+   "storyTypeList": [
+    "1 mining 2",
+    "3 mining 2s"
+   ],
+   "plainOrders": [
+    "train 1 mining 2",
+    "train 3 mining 2s",
+    "build a mining 2",
+    "build 2 mining 2s",
+    "research mining 2",
+    "mining 2"
+   ],
+   "feed": [
+    "P1 kills 2x mining 2",
+    "P2 loses 1x mining 2",
+    "P1 loses mining 2",
+    "P1 builds mining 2",
+    "P1 spots P2's mining 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost mining 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x mining 2",
+     "<b>Ben</b> lost mining 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"mining_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"mining_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "carry_1": {
+   "storyNice": "carry 1",
+   "casterNice": "carry 1",
+   "storyTypeList": [
+    "1 carry 1",
+    "3 carry 1s"
+   ],
+   "plainOrders": [
+    "train 1 carry 1",
+    "train 3 carry 1s",
+    "build a carry 1",
+    "build 2 carry 1s",
+    "research carry 1",
+    "carry 1"
+   ],
+   "feed": [
+    "P1 kills 2x carry 1",
+    "P2 loses 1x carry 1",
+    "P1 loses carry 1",
+    "P1 builds carry 1",
+    "P1 spots P2's carry 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost carry 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x carry 1",
+     "<b>Ben</b> lost carry 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"carry_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"carry_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "carry_2": {
+   "storyNice": "carry 2",
+   "casterNice": "carry 2",
+   "storyTypeList": [
+    "1 carry 2",
+    "3 carry 2s"
+   ],
+   "plainOrders": [
+    "train 1 carry 2",
+    "train 3 carry 2s",
+    "build a carry 2",
+    "build 2 carry 2s",
+    "research carry 2",
+    "carry 2"
+   ],
+   "feed": [
+    "P1 kills 2x carry 2",
+    "P2 loses 1x carry 2",
+    "P1 loses carry 2",
+    "P1 builds carry 2",
+    "P1 spots P2's carry 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost carry 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x carry 2",
+     "<b>Ben</b> lost carry 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"carry_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"carry_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "melee_attack_1": {
+   "storyNice": "melee attack 1",
+   "casterNice": "melee attack 1",
+   "storyTypeList": [
+    "1 melee attack 1",
+    "3 melee attack 1s"
+   ],
+   "plainOrders": [
+    "train 1 melee attack 1",
+    "train 3 melee attack 1s",
+    "build a melee attack 1",
+    "build 2 melee attack 1s",
+    "research melee attack 1",
+    "melee attack 1"
+   ],
+   "feed": [
+    "P1 kills 2x melee attack 1",
+    "P2 loses 1x melee attack 1",
+    "P1 loses melee attack 1",
+    "P1 builds melee attack 1",
+    "P1 spots P2's melee attack 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost melee attack 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x melee attack 1",
+     "<b>Ben</b> lost melee attack 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"melee_attack_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"melee_attack_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "melee_attack_2": {
+   "storyNice": "melee attack 2",
+   "casterNice": "melee attack 2",
+   "storyTypeList": [
+    "1 melee attack 2",
+    "3 melee attack 2s"
+   ],
+   "plainOrders": [
+    "train 1 melee attack 2",
+    "train 3 melee attack 2s",
+    "build a melee attack 2",
+    "build 2 melee attack 2s",
+    "research melee attack 2",
+    "melee attack 2"
+   ],
+   "feed": [
+    "P1 kills 2x melee attack 2",
+    "P2 loses 1x melee attack 2",
+    "P1 loses melee attack 2",
+    "P1 builds melee attack 2",
+    "P1 spots P2's melee attack 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost melee attack 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x melee attack 2",
+     "<b>Ben</b> lost melee attack 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"melee_attack_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"melee_attack_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "ranged_attack_1": {
+   "storyNice": "ranged attack 1",
+   "casterNice": "ranged attack 1",
+   "storyTypeList": [
+    "1 ranged attack 1",
+    "3 ranged attack 1s"
+   ],
+   "plainOrders": [
+    "train 1 ranged attack 1",
+    "train 3 ranged attack 1s",
+    "build a ranged attack 1",
+    "build 2 ranged attack 1s",
+    "research ranged attack 1",
+    "ranged attack 1"
+   ],
+   "feed": [
+    "P1 kills 2x ranged attack 1",
+    "P2 loses 1x ranged attack 1",
+    "P1 loses ranged attack 1",
+    "P1 builds ranged attack 1",
+    "P1 spots P2's ranged attack 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost ranged attack 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x ranged attack 1",
+     "<b>Ben</b> lost ranged attack 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"ranged_attack_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"ranged_attack_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "ranged_attack_2": {
+   "storyNice": "ranged attack 2",
+   "casterNice": "ranged attack 2",
+   "storyTypeList": [
+    "1 ranged attack 2",
+    "3 ranged attack 2s"
+   ],
+   "plainOrders": [
+    "train 1 ranged attack 2",
+    "train 3 ranged attack 2s",
+    "build a ranged attack 2",
+    "build 2 ranged attack 2s",
+    "research ranged attack 2",
+    "ranged attack 2"
+   ],
+   "feed": [
+    "P1 kills 2x ranged attack 2",
+    "P2 loses 1x ranged attack 2",
+    "P1 loses ranged attack 2",
+    "P1 builds ranged attack 2",
+    "P1 spots P2's ranged attack 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost ranged attack 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x ranged attack 2",
+     "<b>Ben</b> lost ranged attack 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"ranged_attack_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"ranged_attack_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "melee_armour_1": {
+   "storyNice": "melee armour 1",
+   "casterNice": "melee armour 1",
+   "storyTypeList": [
+    "1 melee armour 1",
+    "3 melee armour 1s"
+   ],
+   "plainOrders": [
+    "train 1 melee armour 1",
+    "train 3 melee armour 1s",
+    "build a melee armour 1",
+    "build 2 melee armour 1s",
+    "research melee armour 1",
+    "melee armour 1"
+   ],
+   "feed": [
+    "P1 kills 2x melee armour 1",
+    "P2 loses 1x melee armour 1",
+    "P1 loses melee armour 1",
+    "P1 builds melee armour 1",
+    "P1 spots P2's melee armour 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost melee armour 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x melee armour 1",
+     "<b>Ben</b> lost melee armour 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"melee_armour_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"melee_armour_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "melee_armour_2": {
+   "storyNice": "melee armour 2",
+   "casterNice": "melee armour 2",
+   "storyTypeList": [
+    "1 melee armour 2",
+    "3 melee armour 2s"
+   ],
+   "plainOrders": [
+    "train 1 melee armour 2",
+    "train 3 melee armour 2s",
+    "build a melee armour 2",
+    "build 2 melee armour 2s",
+    "research melee armour 2",
+    "melee armour 2"
+   ],
+   "feed": [
+    "P1 kills 2x melee armour 2",
+    "P2 loses 1x melee armour 2",
+    "P1 loses melee armour 2",
+    "P1 builds melee armour 2",
+    "P1 spots P2's melee armour 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost melee armour 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x melee armour 2",
+     "<b>Ben</b> lost melee armour 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"melee_armour_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"melee_armour_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "pierce_armour_1": {
+   "storyNice": "pierce armour 1",
+   "casterNice": "pierce armour 1",
+   "storyTypeList": [
+    "1 pierce armour 1",
+    "3 pierce armour 1s"
+   ],
+   "plainOrders": [
+    "train 1 pierce armour 1",
+    "train 3 pierce armour 1s",
+    "build a pierce armour 1",
+    "build 2 pierce armour 1s",
+    "research pierce armour 1",
+    "pierce armour 1"
+   ],
+   "feed": [
+    "P1 kills 2x pierce armour 1",
+    "P2 loses 1x pierce armour 1",
+    "P1 loses pierce armour 1",
+    "P1 builds pierce armour 1",
+    "P1 spots P2's pierce armour 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost pierce armour 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x pierce armour 1",
+     "<b>Ben</b> lost pierce armour 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"pierce_armour_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"pierce_armour_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "pierce_armour_2": {
+   "storyNice": "pierce armour 2",
+   "casterNice": "pierce armour 2",
+   "storyTypeList": [
+    "1 pierce armour 2",
+    "3 pierce armour 2s"
+   ],
+   "plainOrders": [
+    "train 1 pierce armour 2",
+    "train 3 pierce armour 2s",
+    "build a pierce armour 2",
+    "build 2 pierce armour 2s",
+    "research pierce armour 2",
+    "pierce armour 2"
+   ],
+   "feed": [
+    "P1 kills 2x pierce armour 2",
+    "P2 loses 1x pierce armour 2",
+    "P1 loses pierce armour 2",
+    "P1 builds pierce armour 2",
+    "P1 spots P2's pierce armour 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost pierce armour 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x pierce armour 2",
+     "<b>Ben</b> lost pierce armour 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"pierce_armour_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"pierce_armour_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "fletching": {
+   "storyNice": "fletching",
+   "casterNice": "fletching",
+   "storyTypeList": [
+    "1 fletching",
+    "3 fletchings"
+   ],
+   "plainOrders": [
+    "train 1 fletching",
+    "train 3 fletchings",
+    "build a fletching",
+    "build 2 fletchings",
+    "research fletching",
+    "fletching"
+   ],
+   "feed": [
+    "P1 kills 2x fletching",
+    "P2 loses 1x fletching",
+    "P1 loses fletching",
+    "P1 builds fletching",
+    "P1 spots P2's fletching"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost fletching"
+    ],
+    [
+     "<b>Anna</b> lost 2x fletching",
+     "<b>Ben</b> lost fletching"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"fletching\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"fletching\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "masonry": {
+   "storyNice": "masonry",
+   "casterNice": "masonry",
+   "storyTypeList": [
+    "1 masonry",
+    "3 masonrys"
+   ],
+   "plainOrders": [
+    "train 1 masonry",
+    "train 3 masonrys",
+    "build a masonry",
+    "build 2 masonrys",
+    "research masonry",
+    "masonry"
+   ],
+   "feed": [
+    "P1 kills 2x masonry",
+    "P2 loses 1x masonry",
+    "P1 loses masonry",
+    "P1 builds masonry",
+    "P1 spots P2's masonry"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost masonry"
+    ],
+    [
+     "<b>Anna</b> lost 2x masonry",
+     "<b>Ben</b> lost masonry"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"masonry\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"masonry\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "bloodlines": {
+   "storyNice": "bloodlines",
+   "casterNice": "bloodlines",
+   "storyTypeList": [
+    "1 bloodlines",
+    "3 bloodlines"
+   ],
+   "plainOrders": [
+    "train 1 bloodlines",
+    "train 3 bloodlines",
+    "build a bloodlines",
+    "build 2 bloodlines",
+    "research bloodlines",
+    "bloodlines"
+   ],
+   "feed": [
+    "P1 kills 2x bloodlines",
+    "P2 loses 1x bloodlines",
+    "P1 loses bloodlines",
+    "P1 builds bloodlines",
+    "P1 spots P2's bloodlines"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost bloodlines"
+    ],
+    [
+     "<b>Anna</b> lost 2x bloodlines",
+     "<b>Ben</b> lost bloodlines"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"bloodlines\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"bloodlines\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "blackpowder": {
+   "storyNice": "blackpowder",
+   "casterNice": "blackpowder",
+   "storyTypeList": [
+    "1 blackpowder",
+    "3 blackpowders"
+   ],
+   "plainOrders": [
+    "train 1 blackpowder",
+    "train 3 blackpowders",
+    "build a blackpowder",
+    "build 2 blackpowders",
+    "research blackpowder",
+    "blackpowder"
+   ],
+   "feed": [
+    "P1 kills 2x blackpowder",
+    "P2 loses 1x blackpowder",
+    "P1 loses blackpowder",
+    "P1 builds blackpowder",
+    "P1 spots P2's blackpowder"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost blackpowder"
+    ],
+    [
+     "<b>Anna</b> lost 2x blackpowder",
+     "<b>Ben</b> lost blackpowder"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"blackpowder\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"blackpowder\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "field_medicine_1": {
+   "storyNice": "field medicine 1",
+   "casterNice": "field medicine 1",
+   "storyTypeList": [
+    "1 field medicine 1",
+    "3 field medicine 1s"
+   ],
+   "plainOrders": [
+    "train 1 field medicine 1",
+    "train 3 field medicine 1s",
+    "build a field medicine 1",
+    "build 2 field medicine 1s",
+    "research field medicine 1",
+    "field medicine 1"
+   ],
+   "feed": [
+    "P1 kills 2x field medicine 1",
+    "P2 loses 1x field medicine 1",
+    "P1 loses field medicine 1",
+    "P1 builds field medicine 1",
+    "P1 spots P2's field medicine 1"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost field medicine 1"
+    ],
+    [
+     "<b>Anna</b> lost 2x field medicine 1",
+     "<b>Ben</b> lost field medicine 1"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"field_medicine_1\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"field_medicine_1\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "field_medicine_2": {
+   "storyNice": "field medicine 2",
+   "casterNice": "field medicine 2",
+   "storyTypeList": [
+    "1 field medicine 2",
+    "3 field medicine 2s"
+   ],
+   "plainOrders": [
+    "train 1 field medicine 2",
+    "train 3 field medicine 2s",
+    "build a field medicine 2",
+    "build 2 field medicine 2s",
+    "research field medicine 2",
+    "field medicine 2"
+   ],
+   "feed": [
+    "P1 kills 2x field medicine 2",
+    "P2 loses 1x field medicine 2",
+    "P1 loses field medicine 2",
+    "P1 builds field medicine 2",
+    "P1 spots P2's field medicine 2"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost field medicine 2"
+    ],
+    [
+     "<b>Anna</b> lost 2x field medicine 2",
+     "<b>Ben</b> lost field medicine 2"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"field_medicine_2\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"field_medicine_2\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "siege_craft": {
+   "storyNice": "siege craft",
+   "casterNice": "siege craft",
+   "storyTypeList": [
+    "1 siege craft",
+    "3 siege crafts"
+   ],
+   "plainOrders": [
+    "train 1 siege craft",
+    "train 3 siege crafts",
+    "build a siege craft",
+    "build 2 siege crafts",
+    "research siege craft",
+    "siege craft"
+   ],
+   "feed": [
+    "P1 kills 2x siege craft",
+    "P2 loses 1x siege craft",
+    "P1 loses siege craft",
+    "P1 builds siege craft",
+    "P1 spots P2's siege craft"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost siege craft"
+    ],
+    [
+     "<b>Anna</b> lost 2x siege craft",
+     "<b>Ben</b> lost siege craft"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"siege_craft\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"siege_craft\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "trade_charter": {
+   "storyNice": "trade charter",
+   "casterNice": "trade charter",
+   "storyTypeList": [
+    "1 trade charter",
+    "3 trade charters"
+   ],
+   "plainOrders": [
+    "train 1 trade charter",
+    "train 3 trade charters",
+    "build a trade charter",
+    "build 2 trade charters",
+    "research trade charter",
+    "trade charter"
+   ],
+   "feed": [
+    "P1 kills 2x trade charter",
+    "P2 loses 1x trade charter",
+    "P1 loses trade charter",
+    "P1 builds trade charter",
+    "P1 spots P2's trade charter"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost trade charter"
+    ],
+    [
+     "<b>Anna</b> lost 2x trade charter",
+     "<b>Ben</b> lost trade charter"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"trade_charter\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"trade_charter\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "wolf": {
+   "storyNice": "wolf",
+   "casterNice": "wolf",
+   "storyTypeList": [
+    "1 wolf",
+    "3 wolfs"
+   ],
+   "plainOrders": [
+    "train 1 wolf",
+    "train 3 wolfs",
+    "build a wolf",
+    "build 2 wolfs",
+    "research wolf",
+    "wolf"
+   ],
+   "feed": [
+    "P1 kills 2x wolf",
+    "P2 loses 1x wolf",
+    "P1 loses wolf",
+    "P1 builds wolf",
+    "P1 spots P2's wolf"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost wolf"
+    ],
+    [
+     "<b>Anna</b> lost 2x wolf",
+     "<b>Ben</b> lost wolf"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no wolf at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"wolf\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "caravan": {
+   "storyNice": "caravan",
+   "casterNice": "caravan",
+   "storyTypeList": [
+    "1 caravan",
+    "3 caravans"
+   ],
+   "plainOrders": [
+    "train 1 caravan",
+    "train 3 caravans",
+    "build a caravan",
+    "build 2 caravans",
+    "research caravan",
+    "caravan"
+   ],
+   "feed": [
+    "P1 kills 2x caravan",
+    "P2 loses 1x caravan",
+    "P1 loses caravan",
+    "P1 builds caravan",
+    "P1 spots P2's caravan"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost caravan"
+    ],
+    [
+     "<b>Anna</b> lost 2x caravan",
+     "<b>Ben</b> lost caravan"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: player 1 has no caravan at 00:10"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"caravan\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "": {
+   "storyNice": "",
+   "casterNice": "",
+   "storyTypeList": [
+    "1 ",
+    "3 s"
+   ],
+   "plainOrders": [
+    "train 1x ",
+    "train 3x ",
+    "build ",
+    "build ",
+    "research ",
+    ""
+   ],
+   "feed": [
+    "P1 kills 2x ",
+    "P2 loses 1x ",
+    "P1 loses ",
+    "P1 builds ",
+    "P1 spots P2's "
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost "
+    ],
+    [
+     "<b>Anna</b> lost 2x ",
+     "<b>Ben</b> lost "
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "x_y_z": {
+   "storyNice": "x y z",
+   "casterNice": "x y z",
+   "storyTypeList": [
+    "1 x y z",
+    "3 x y zs"
+   ],
+   "plainOrders": [
+    "train 1 x y z",
+    "train 3 x y zs",
+    "build a x y z",
+    "build 2 x y zs",
+    "research x y z",
+    "x y z"
+   ],
+   "feed": [
+    "P1 kills 2x x y z",
+    "P2 loses 1x x y z",
+    "P1 loses x y z",
+    "P1 builds x y z",
+    "P1 spots P2's x y z"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost x y z"
+    ],
+    [
+     "<b>Anna</b> lost 2x x y z",
+     "<b>Ben</b> lost x y z"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"x_y_z\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"x_y_z\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "already spaced": {
+   "storyNice": "already spaced",
+   "casterNice": "already spaced",
+   "storyTypeList": [
+    "1 already spaced",
+    "3 already spaceds"
+   ],
+   "plainOrders": [
+    "train 1 already spaced",
+    "train 3 already spaceds",
+    "build an already spaced",
+    "build 2 already spaceds",
+    "research already spaced",
+    "already spaced"
+   ],
+   "feed": [
+    "P1 kills 2x already spaced",
+    "P2 loses 1x already spaced",
+    "P1 loses already spaced",
+    "P1 builds already spaced",
+    "P1 spots P2's already spaced"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost already spaced"
+    ],
+    [
+     "<b>Anna</b> lost 2x already spaced",
+     "<b>Ben</b> lost already spaced"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"already spaced\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"already spaced\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "train": {
+   "storyNice": "train",
+   "casterNice": "train",
+   "storyTypeList": [
+    "1 train",
+    "3 trains"
+   ],
+   "plainOrders": [
+    "train 1 train",
+    "train 3 trains",
+    "build a train",
+    "build 2 trains",
+    "research train",
+    "train"
+   ],
+   "feed": [
+    "P1 kills 2x train",
+    "P2 loses 1x train",
+    "P1 loses train",
+    "P1 builds train",
+    "P1 spots P2's train"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost train"
+    ],
+    [
+     "<b>Anna</b> lost 2x train",
+     "<b>Ben</b> lost train"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"train\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"train\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "advance_tier": {
+   "storyNice": "advance tier",
+   "casterNice": "advance tier",
+   "storyTypeList": [
+    "1 advance tier",
+    "3 advance tiers"
+   ],
+   "plainOrders": [
+    "train 1 advance tier",
+    "train 3 advance tiers",
+    "build an advance tier",
+    "build 2 advance tiers",
+    "research advance tier",
+    "advance tier"
+   ],
+   "feed": [
+    "P1 kills 2x advance tier",
+    "P2 loses 1x advance tier",
+    "P1 loses advance tier",
+    "P1 builds advance tier",
+    "P1 spots P2's advance tier"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost advance tier"
+    ],
+    [
+     "<b>Anna</b> lost 2x advance tier",
+     "<b>Ben</b> lost advance tier"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"advance_tier\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"advance_tier\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "berries": {
+   "storyNice": "berries",
+   "casterNice": "berries",
+   "storyTypeList": [
+    "1 berries",
+    "3 berries"
+   ],
+   "plainOrders": [
+    "train 1 berries",
+    "train 3 berries",
+    "build a berries",
+    "build 2 berries",
+    "research berries",
+    "berries"
+   ],
+   "feed": [
+    "P1 kills 2x berries",
+    "P2 loses 1x berries",
+    "P1 loses berries",
+    "P1 builds berries",
+    "P1 spots P2's berries"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost berries"
+    ],
+    [
+     "<b>Anna</b> lost 2x berries",
+     "<b>Ben</b> lost berries"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"berries\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"berries\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "herd": {
+   "storyNice": "herd",
+   "casterNice": "herd",
+   "storyTypeList": [
+    "1 herd",
+    "3 herds"
+   ],
+   "plainOrders": [
+    "train 1 herd",
+    "train 3 herds",
+    "build a herd",
+    "build 2 herds",
+    "research herd",
+    "herd"
+   ],
+   "feed": [
+    "P1 kills 2x herd",
+    "P2 loses 1x herd",
+    "P1 loses herd",
+    "P1 builds herd",
+    "P1 spots P2's herd"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost herd"
+    ],
+    [
+     "<b>Anna</b> lost 2x herd",
+     "<b>Ben</b> lost herd"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"herd\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"herd\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "forest": {
+   "storyNice": "forest",
+   "casterNice": "forest",
+   "storyTypeList": [
+    "1 forest",
+    "3 forests"
+   ],
+   "plainOrders": [
+    "train 1 forest",
+    "train 3 forests",
+    "build a forest",
+    "build 2 forests",
+    "research forest",
+    "forest"
+   ],
+   "feed": [
+    "P1 kills 2x forest",
+    "P2 loses 1x forest",
+    "P1 loses forest",
+    "P1 builds forest",
+    "P1 spots P2's forest"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost forest"
+    ],
+    [
+     "<b>Anna</b> lost 2x forest",
+     "<b>Ben</b> lost forest"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"forest\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"forest\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "relic_shrine": {
+   "storyNice": "relic shrine",
+   "casterNice": "relic shrine",
+   "storyTypeList": [
+    "1 relic shrine",
+    "3 relic shrines"
+   ],
+   "plainOrders": [
+    "train 1 relic shrine",
+    "train 3 relic shrines",
+    "build a relic shrine",
+    "build 2 relic shrines",
+    "research relic shrine",
+    "relic shrine"
+   ],
+   "feed": [
+    "P1 kills 2x relic shrine",
+    "P2 loses 1x relic shrine",
+    "P1 loses relic shrine",
+    "P1 builds relic shrine",
+    "P1 spots P2's relic shrine"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost relic shrine"
+    ],
+    [
+     "<b>Anna</b> lost 2x relic shrine",
+     "<b>Ben</b> lost relic shrine"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"relic_shrine\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: building type \"relic_shrine\" does not exist (town_center, house, lumber_camp, mining_camp, mill, farm, barracks, archery_range, stables, siege_workshop, blacksmith, tower, wall, gate, market, castle, wonder, outpost, harbor)"
+     ]
+    }
+   ]
+  },
+  "constructor": {
+   "storyNice": "constructor",
+   "casterNice": "constructor",
+   "storyTypeList": [
+    "1 constructor",
+    "3 constructors"
+   ],
+   "plainOrders": [
+    "train 1 constructor",
+    "train 3 constructors",
+    "build a constructor",
+    "build 2 constructors",
+    "research constructor",
+    "1"
+   ],
+   "feed": [
+    "P1 kills 2x constructor",
+    "P2 loses 1x constructor",
+    "P1 loses constructor",
+    "P1 builds constructor",
+    "P1 spots P2's constructor"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost constructor"
+    ],
+    [
+     "<b>Anna</b> lost 2x constructor",
+     "<b>Ben</b> lost constructor"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"constructor\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished constructor at 00:10"
+     ]
+    }
+   ]
+  },
+  "toString": {
+   "storyNice": "toString",
+   "casterNice": "toString",
+   "storyTypeList": [
+    "1 toString",
+    "3 toStrings"
+   ],
+   "plainOrders": [
+    "train 1 toString",
+    "train 3 toStrings",
+    "build a toString",
+    "build 2 toStrings",
+    "research toString",
+    "[object Object]"
+   ],
+   "feed": [
+    "P1 kills 2x toString",
+    "P2 loses 1x toString",
+    "P1 loses toString",
+    "P1 builds toString",
+    "P1 spots P2's toString"
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost toString"
+    ],
+    [
+     "<b>Anna</b> lost 2x toString",
+     "<b>Ben</b> lost toString"
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"toString\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished toString at 00:10"
+     ]
+    }
+   ]
+  },
+  "__proto__": {
+   "storyNice": "  proto  ",
+   "casterNice": "  proto  ",
+   "storyTypeList": [
+    "1   proto  ",
+    "3   proto  s"
+   ],
+   "plainOrders": [
+    "train 1   proto  ",
+    "train 3   proto  s",
+    "build a   proto  ",
+    "build 2   proto  s",
+    "research   proto  ",
+    "THROWS TypeError"
+   ],
+   "feed": [
+    "P1 kills 2x   proto  ",
+    "P2 loses 1x   proto  ",
+    "P1 loses   proto  ",
+    "P1 builds   proto  ",
+    "P1 spots P2's   proto  "
+   ],
+   "hud": [
+    [
+     "<b>Anna</b> lost   proto  "
+    ],
+    [
+     "<b>Anna</b> lost 2x   proto  ",
+     "<b>Ben</b> lost   proto  "
+    ],
+    []
+   ],
+   "show": [
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] follow: unit type \"__proto__\" does not exist (worker, spearman, swordsman, archer, skirmisher, light_cavalry, heavy_cavalry, ram, catapult, scout, healer, mortar, sapper, bulwark, fishing_boat, war_boat, transport)"
+     ]
+    },
+    {
+     "tags": [],
+     "reasons": [
+      "show[0] building: player 1 has no finished   proto   at 00:10"
+     ]
+    }
+   ]
+  }
+ }
+}
